@@ -1,0 +1,41 @@
+export default [
+  {
+    title: '#0',
+    depends: null,
+    main: true,
+    intro: 'Gummi bears gummi bears oat cake lollipop. Toffee jelly apple pie macaroon muffin sweet roll halvah cotton candy apple pie. Powder dragée donut bonbon brownie marshmallow sesame snaps marshmallow pie. Muffin topping sesame snaps chocolate brownie halvah gummi bears sugar plum.',
+    label: 'Gingerbread sweet topping marzipan bonbon powder?',
+    solutions: ['Gingerbread'],
+    loot: 100
+  },
+  {
+    title: '#1',
+    depends: null,
+    main: true,
+    intro: 'Jelly beans cotton candy chocolate cake wafer caramels. Powder dragée sesame snaps tootsie roll sesame snaps dragée pastry pastry. Lollipop chocolate chocolate cake jelly-o bonbon carrot cake oat cake.',
+    label: 'Wafer muffin tart caramels pudding?',
+    hint: 'Anwohner wissen worum\'s geht',
+    solutions: ['muffin', 'Muffin', 'muphin'],
+    loot: 10,
+  },
+  {
+    title: '#2.1',
+    depends: '#1',
+    main: false,
+    intro: 'bax',
+    label: 'Foo',
+    hint: 'Bar',
+    solutions: ['123'],
+    loot: 10,
+  },
+  {
+    title: '#2',
+    depends: '#1',
+    main: true,
+    intro: 'bax',
+    label: 'Foo',
+    hint: 'Bar',
+    solutions: ['123'],
+    loot: 10,
+  },
+];

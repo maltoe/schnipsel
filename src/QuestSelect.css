@@ -1,0 +1,12 @@
+.quest-select {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 20px;
+  align-content: space-around;
+  max-height: 500px;
+}
+
+.quest-select-button {
+  margin-bottom: 10px;
+  width: 400px;
+}

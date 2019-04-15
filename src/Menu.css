@@ -1,0 +1,24 @@
+.menu {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu h1 {
+  font-size: 60px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.savegame-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.savegame-select-option {
+  margin: 0 20px;
+  width: 200px;
+}

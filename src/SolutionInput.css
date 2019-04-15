@@ -1,0 +1,13 @@
+.solution {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.solution-input {
+  max-width: 560px;
+}
+
+.solution-loot-button {
+  width: 180px;
+}

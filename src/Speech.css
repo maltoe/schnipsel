@@ -1,0 +1,13 @@
+.speech {
+  max-height: 560px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.speech-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

@@ -1,0 +1,16 @@
+.quest {
+  max-height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.quest-intro-scroll {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.quest-actions {
+  margin-top: 20px;
+}

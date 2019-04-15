@@ -1,0 +1,11 @@
+#statusbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
